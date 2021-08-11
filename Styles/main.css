@@ -1,0 +1,16 @@
+.pageHeader {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.shop {
+  border-style: dotted;
+  border-width: 1px;
+  height: auto;
+  min-width: 200px;
+}
