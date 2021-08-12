@@ -1,16 +1,30 @@
+body {
+  background: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .pageHeader {
   display: flex;
   justify-content: center;
+  color: rgb(216, 206, 206);
   padding-bottom: 25px;
+  padding-top: 20px;
+  background: rgb(70, 62, 62);
+  font-weight: bolder;
+  font-size: 35px;
 }
 .list {
+  margin: 25px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .shop {
-  border-style: dotted;
-  border-width: 1px;
+  padding: 20px;
+  border: solid 2px rgb(70, 62, 62);
   height: auto;
   min-width: 200px;
+  background: burlywood;
+}
+.shop a {
+  color: black;
 }
